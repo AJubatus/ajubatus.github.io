@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>sdunbar.me/posts/first_post/</loc>
+    <lastmod>2018-07-26T11:37:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/final-year-project/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/final-year-project-prelim-report/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/home-network-redesign-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/home-network-redesign-part-1/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/migrating-from-google-authenticator-to-authy/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/mobile_applications/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/tags/personal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/categories/personal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/</loc>
+    <lastmod>2018-07-26T11:37:06+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week1/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week11/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week13/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week14/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week19/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week2/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/square-foot-gardening-week-21/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week3/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/sfg-week8/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/</loc>
+    <lastmod>2018-07-26T11:37:06+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/trip-to-hong-kong/</loc>
+  </url>
+  
+  <url>
+    <loc>sdunbar.me/posts/work-trip-to-taiwan/</loc>
+  </url>
+  
+</urlset>
