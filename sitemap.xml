@@ -3,112 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>sdunbar.me/posts/first_post/</loc>
+    <loc>https://sdunbar.me/posts/first_post/</loc>
     <lastmod>2018-07-26T11:37:06+01:00</lastmod>
   </url>
   
   <url>
-    <loc>sdunbar.me/categories/</loc>
+    <loc>https://sdunbar.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/final-year-project/</loc>
+    <loc>https://sdunbar.me/posts/final-year-project/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/final-year-project-prelim-report/</loc>
+    <loc>https://sdunbar.me/posts/final-year-project-prelim-report/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/home-network-redesign-overview/</loc>
+    <loc>https://sdunbar.me/posts/home-network-redesign-overview/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/home-network-redesign-part-1/</loc>
+    <loc>https://sdunbar.me/posts/home-network-redesign-part-1/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/migrating-from-google-authenticator-to-authy/</loc>
+    <loc>https://sdunbar.me/posts/migrating-from-google-authenticator-to-authy/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/</loc>
+    <loc>https://sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/mobile_applications/</loc>
+    <loc>https://sdunbar.me/posts/mobile_applications/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/tags/personal/</loc>
+    <loc>https://sdunbar.me/tags/personal/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>sdunbar.me/categories/personal/</loc>
+    <loc>https://sdunbar.me/categories/personal/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/</loc>
-    <lastmod>2018-07-26T11:37:06+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week1/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week11/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week13/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week14/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week19/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week2/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/square-foot-gardening-week-21/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week3/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/posts/sfg-week8/</loc>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>sdunbar.me/</loc>
+    <loc>https://sdunbar.me/posts/</loc>
     <lastmod>2018-07-26T11:37:06+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/trip-to-hong-kong/</loc>
+    <loc>https://sdunbar.me/posts/sfg-week1/</loc>
   </url>
   
   <url>
-    <loc>sdunbar.me/posts/work-trip-to-taiwan/</loc>
+    <loc>https://sdunbar.me/posts/sfg-week11/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/sfg-week13/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/sfg-week14/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/sfg-week19/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/sfg-week2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/square-foot-gardening-week-21/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/sfg-week3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/sfg-week8/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/</loc>
+    <lastmod>2018-07-26T11:37:06+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/trip-to-hong-kong/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/work-trip-to-taiwan/</loc>
   </url>
   
 </urlset>

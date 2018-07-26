@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Technobabble</title>
-    <link>sdunbar.me/tags/personal/</link>
+    <link>https://sdunbar.me/tags/personal/</link>
     <description>Recent content in Personal on Technobabble</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="sdunbar.me/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sdunbar.me/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Trip to Hong Kong</title>
-      <link>sdunbar.me/posts/trip-to-hong-kong/</link>
+      <link>https://sdunbar.me/posts/trip-to-hong-kong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>sdunbar.me/posts/trip-to-hong-kong/</guid>
+      <guid>https://sdunbar.me/posts/trip-to-hong-kong/</guid>
       <description>After my 2 weeks working in Taiwan, I figured I&amp;rsquo;d spend some time in Hong Kong, since the flights there from Taiwan were incredibly cheap!
 You can see all the photos here: https://photos.app.goo.gl/6AD7avHvqYtZaxJ88
 April 21 I set out from my hotel in Taipei to Taoyuan International Airport early, and had some time to work on my screenshot tool project while waiting to board.
@@ -24,10 +24,10 @@ The flight was mostly uneventful, except my left ear wouldn&amp;rsquo;t &amp;ldq
     
     <item>
       <title>Work Trip to Taiwan</title>
-      <link>sdunbar.me/posts/work-trip-to-taiwan/</link>
+      <link>https://sdunbar.me/posts/work-trip-to-taiwan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>sdunbar.me/posts/work-trip-to-taiwan/</guid>
+      <guid>https://sdunbar.me/posts/work-trip-to-taiwan/</guid>
       <description>I got to spend 2 weeks in Taiwan for work, so I decided to document it here :)
 April 6 Day 1 consisted of me flying 2,956 kilometres towards Istanbul, where I spent another 3 hours waiting for my connecting flight.
 April 7 Day 2 consisted of a further 8,407 kilometres, taking another 11 hours.

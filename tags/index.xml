@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Technobabble</title>
-    <link>sdunbar.me/tags/</link>
+    <link>https://sdunbar.me/tags/</link>
     <description>Recent content in Tags on Technobabble</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="sdunbar.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sdunbar.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personal</title>
-      <link>sdunbar.me/tags/personal/</link>
+      <link>https://sdunbar.me/tags/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>sdunbar.me/tags/personal/</guid>
+      <guid>https://sdunbar.me/tags/personal/</guid>
       <description></description>
     </item>
     
