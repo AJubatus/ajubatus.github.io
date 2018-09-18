@@ -21,169 +21,9 @@
     </item>
     
     <item>
-      <title>Final Year Project</title>
-      <link>https://sdunbar.me/posts/final-year-project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/final-year-project/</guid>
-      <description>With the knowledge gained from completing this project, it would be very easy to improve on this even further. Ways this could be improved would be using a cheap radio transmitter instead of a board with WiFi, hopefully cutting down on power usage even further. This could involve having numerous sensors radio back metrics to a “base” station, which would then upload the data to the database.
-A waterproof, solar-powered enclosure could be used in the system.</description>
-    </item>
-    
-    <item>
-      <title>Final Year Project - Preliminary Report</title>
-      <link>https://sdunbar.me/posts/final-year-project-prelim-report/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/final-year-project-prelim-report/</guid>
-      <description>| | [2] | A. Gebhart, &amp;quot;Parrot Flower Power Review,&amp;quot; 4 June 2014. [Online]. Available: https://www.cnet.com/uk/products/parrot-flower-power/review/. [Accessed 16 February 2017]. |%</description>
-    </item>
-    
-    <item>
-      <title>Home Network Redesign Overview</title>
-      <link>https://sdunbar.me/posts/home-network-redesign-overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/home-network-redesign-overview/</guid>
-      <description>After finishing my Networking Technologies degree in DIT, I decided that I wanted to start a home networking revamp to prove to myself that I could and to refresh my skills. I decided that I wanted to completely redo every aspect of the network, except for my ISP connection. I chose to break this down into 5 steps.
-Part 1: Install and configure Cisco 2901 Router
-From my work placement last year, I was able to acquire 3 Cisco 2901 routers.</description>
-    </item>
-    
-    <item>
-      <title>Home Network Redesign, Part 1</title>
-      <link>https://sdunbar.me/posts/home-network-redesign-part-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/home-network-redesign-part-1/</guid>
-      <description>For part 1, I started with double checking the 2901 was in a working condition and wiping it of the previous owner&amp;rsquo;s information. I was shocked to find the routing information and configuration from the networking company that it used to belong to was still present on the device. After wiping, I set the hostname and began working on a basic configuration.
-I started with addressing and on-lining the interfaces.</description>
-    </item>
-    
-    <item>
-      <title>Migrating from Google Authenticator to Authy</title>
-      <link>https://sdunbar.me/posts/migrating-from-google-authenticator-to-authy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/migrating-from-google-authenticator-to-authy/</guid>
-      <description>Migrating from Google Authenticator to Authy Two Factor Authentication is a neccessity these days and I try to use it wherever I can, but I was concerned still over what happened if I lost my phone and thus access to my 2FA credentials. To get around this using Google Authenticator I used Titanium Backup to backup the APK and data every 24 hours, but this was really clunky and I didn&amp;rsquo;t like that there was no built-in method to backup this data.</description>
-    </item>
-    
-    <item>
-      <title>Migrating from iRedMail to an alternative</title>
-      <link>https://sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/</guid>
-      <description>Originally, when I registered my own domain, I decided I wanted to use it for a professional looking email to use on my CV and for applying to jobs. When I initially planned this, I had read an Ars Technica article about setting up an email server. With this info, I decided to read more into running your own email server, and came across IRedMail. For almost a year now, iRedMail is what I&amp;rsquo;ve been using, but between needing to constantly monitor access logs for numerous services, triple checking security settings every time a change is made, spend an eternity updating everything and dealing with mail delivery issues, I started to get frustrated.</description>
-    </item>
-    
-    <item>
-      <title>Mobile Applications Formal Element</title>
-      <link>https://sdunbar.me/posts/mobile_applications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/mobile_applications/</guid>
-      <description>Introduction The purpose of this formal element was to design an application for Android Devices that meets the following requirements:
- The user will use the app to take a photo of the room The user will then be able to superimpose a series of straight lines with double ended arrows onto the image The lines will be drawn using finger touch The user will also be able to add dimensions to each line  In this report, I will outline how I have achieved this by describing the background design of the application, followed by a description of the code.</description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 1</title>
-      <link>https://sdunbar.me/posts/sfg-week1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week1/</guid>
-      <description>Summary I&amp;rsquo;ve always wanted to grow vegetables and fruit at home, so this summer I decided to start a raised bed, where I&amp;rsquo;d be able to grow a number of plants without having to dig up the entire garden.
-I decided to follow the ideas of &amp;ldquo;Square Foot Gardening&amp;rdquo;. This was based around the concept of planter allotments that would be 4 square foot; Square Foot Gardening is basing the layout of a planter around square foot sized cells.</description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 11</title>
-      <link>https://sdunbar.me/posts/sfg-week11/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week11/</guid>
-      <description>Summary Further updates. The butternut squash has still yet to flower so I took no pictures of it, it likely won&amp;rsquo;t in time for a good harvest.
-The pumpkins have started to bear fruit, however since taking this picture, the largest has been damaged and removed from the plant. The pumpkin plant has also been pruned back, with some vines cut far back and some fruit removed. There are currently two fruit growing, I may allow two more to grow, depending on where they grow from.</description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 13</title>
-      <link>https://sdunbar.me/posts/sfg-week13/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week13/</guid>
-      <description> Summary Mini update, there is a single pumpkin growing and it&amp;rsquo;s growing very well. I don&amp;rsquo;t think any other fruit will be able to mature in time, so I&amp;rsquo;m going to prune off any other fruit.
-      </description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 14</title>
-      <link>https://sdunbar.me/posts/sfg-week14/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week14/</guid>
-      <description> Summary More progress with the pumpkin, some butternut squash growth as well, but I don&amp;rsquo;t think it will grow in time.
-         </description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 19</title>
-      <link>https://sdunbar.me/posts/sfg-week19/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week19/</guid>
-      <description>Had to cut back the pumpkin leaves due to major infestation. I&amp;rsquo;m not sure when it will fully ripen, but I likely will cut it off next week in preparation for Halloween.
-Planted the onions and garlic from my revised plan! The onions are sprouting already, the garlic should take a longer time to sprout. Hopefully they grow hardy enough to survive the overwintering process.
-  New Bed Plan                 </description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 2</title>
-      <link>https://sdunbar.me/posts/sfg-week2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week2/</guid>
-      <description> Summary Some progress this week, pumpkins have grown out more, largest buttnernut squash leaf had been damaged so was removed. Smallest butternut squash is growing a third leaf, so I guess it&amp;rsquo;s growing just fine again after transplanting.
-Also moved some strawberries nearby on an old bird feeder, to get more sun than it was getting in the previous position.
-  Raised Bed    Pumpkin    Butternut Squash    Smallest Butternut Squash Sprout    Strawberries    Closeup of Strawberries  </description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 21</title>
-      <link>https://sdunbar.me/posts/square-foot-gardening-week-21/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/square-foot-gardening-week-21/</guid>
-      <description>Finally approaching Halloween! Today I cut the pumpkin free and set out to carve it. It was more difficult than I had anticipated, as the pumpkin was entirely solid! This is because it was underdeveloped due to poor feeding in it&amp;rsquo;s early stages.
-Thankfully, it was still carvable after carving away the inside first. I used the &amp;ldquo;Lenny&amp;rdquo; template from Pumpkin Lady
-The garlic and onions are slowly developing. They should slow down as we approach winter, and should survive any frost, to be harvested early next year.</description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 3</title>
-      <link>https://sdunbar.me/posts/sfg-week3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week3/</guid>
-      <description>Summary More progress this week, pumpkins have grown out even more, slugs seem to be present so I need to deal with them. Had to trim the butternut squash again as it seemed to have mildew, which is my own fault for watering improperly. Some animal had gotten into the bed one night and destroyed the smallest butternut squash also.
-Although I&amp;rsquo;m only going to end up keeping the largest of the pumpkin plants, the smallest seems to be developing downy mildew, so I&amp;rsquo;ll have to monitor it over the next week.</description>
-    </item>
-    
-    <item>
-      <title>Square Foot Gardening, Week 8</title>
-      <link>https://sdunbar.me/posts/sfg-week8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/sfg-week8/</guid>
-      <description>Summary First update in months due to being out of the country doing training for work. The butternut squash and pumpkin have grown dramatically since, but have yet to start growing fruit. The vines from the butternut squash will need to be trained onto the trellis over the next couple of weeks. For now I&amp;rsquo;ve removed one of the pumpkin plants (which I meant to do a month ago) and trimmed back the plants to the better stalks.</description>
-    </item>
-    
-    <item>
       <title>Trip to Hong Kong</title>
       <link>https://sdunbar.me/posts/trip-to-hong-kong/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0100</pubDate>
       
       <guid>https://sdunbar.me/posts/trip-to-hong-kong/</guid>
       <description>After my 2 weeks working in Taiwan, I figured I&amp;rsquo;d spend some time in Hong Kong, since the flights there from Taiwan were incredibly cheap!
@@ -195,13 +35,152 @@ The flight was mostly uneventful, except my left ear wouldn&amp;rsquo;t &amp;ldq
     <item>
       <title>Work Trip to Taiwan</title>
       <link>https://sdunbar.me/posts/work-trip-to-taiwan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sdunbar.me/posts/work-trip-to-taiwan/</guid>
       <description>I got to spend 2 weeks in Taiwan for work, so I decided to document it here :)
 April 6 Day 1 consisted of me flying 2,956 kilometres towards Istanbul, where I spent another 3 hours waiting for my connecting flight.
 April 7 Day 2 consisted of a further 8,407 kilometres, taking another 11 hours.
 When I arrived at the airport, I decided to get a Taxi to the hotel since I hadn&amp;rsquo;t set up a work profile for Uber yet.</description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 21</title>
+      <link>https://sdunbar.me/posts/square-foot-gardening-week-21/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/square-foot-gardening-week-21/</guid>
+      <description>Finally approaching Halloween! Today I cut the pumpkin free and set out to carve it. It was more difficult than I had anticipated, as the pumpkin was entirely solid! This is because it was underdeveloped due to poor feeding in it&amp;rsquo;s early stages.
+Thankfully, it was still carvable after carving away the inside first. I used the &amp;ldquo;Lenny&amp;rdquo; template from Pumpkin Lady
+The garlic and onions are slowly developing. They should slow down as we approach winter, and should survive any frost, to be harvested early next year.</description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 19</title>
+      <link>https://sdunbar.me/posts/sfg-week19/</link>
+      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week19/</guid>
+      <description>Had to cut back the pumpkin leaves due to major infestation. I&amp;rsquo;m not sure when it will fully ripen, but I likely will cut it off next week in preparation for Halloween.
+Planted the onions and garlic from my revised plan! The onions are sprouting already, the garlic should take a longer time to sprout. Hopefully they grow hardy enough to survive the overwintering process.
+  New Bed Plan                 </description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 14</title>
+      <link>https://sdunbar.me/posts/sfg-week14/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week14/</guid>
+      <description> Summary More progress with the pumpkin, some butternut squash growth as well, but I don&amp;rsquo;t think it will grow in time.
+         </description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 13</title>
+      <link>https://sdunbar.me/posts/sfg-week13/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week13/</guid>
+      <description> Summary Mini update, there is a single pumpkin growing and it&amp;rsquo;s growing very well. I don&amp;rsquo;t think any other fruit will be able to mature in time, so I&amp;rsquo;m going to prune off any other fruit.
+      </description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 11</title>
+      <link>https://sdunbar.me/posts/sfg-week11/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week11/</guid>
+      <description>Summary Further updates. The butternut squash has still yet to flower so I took no pictures of it, it likely won&amp;rsquo;t in time for a good harvest.
+The pumpkins have started to bear fruit, however since taking this picture, the largest has been damaged and removed from the plant. The pumpkin plant has also been pruned back, with some vines cut far back and some fruit removed. There are currently two fruit growing, I may allow two more to grow, depending on where they grow from.</description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 8</title>
+      <link>https://sdunbar.me/posts/sfg-week8/</link>
+      <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week8/</guid>
+      <description>Summary First update in months due to being out of the country doing training for work. The butternut squash and pumpkin have grown dramatically since, but have yet to start growing fruit. The vines from the butternut squash will need to be trained onto the trellis over the next couple of weeks. For now I&amp;rsquo;ve removed one of the pumpkin plants (which I meant to do a month ago) and trimmed back the plants to the better stalks.</description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 3</title>
+      <link>https://sdunbar.me/posts/sfg-week3/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week3/</guid>
+      <description>Summary More progress this week, pumpkins have grown out even more, slugs seem to be present so I need to deal with them. Had to trim the butternut squash again as it seemed to have mildew, which is my own fault for watering improperly. Some animal had gotten into the bed one night and destroyed the smallest butternut squash also.
+Although I&amp;rsquo;m only going to end up keeping the largest of the pumpkin plants, the smallest seems to be developing downy mildew, so I&amp;rsquo;ll have to monitor it over the next week.</description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 2</title>
+      <link>https://sdunbar.me/posts/sfg-week2/</link>
+      <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week2/</guid>
+      <description> Summary Some progress this week, pumpkins have grown out more, largest buttnernut squash leaf had been damaged so was removed. Smallest butternut squash is growing a third leaf, so I guess it&amp;rsquo;s growing just fine again after transplanting.
+Also moved some strawberries nearby on an old bird feeder, to get more sun than it was getting in the previous position.
+  Raised Bed    Pumpkin    Butternut Squash    Smallest Butternut Squash Sprout    Strawberries    Closeup of Strawberries  </description>
+    </item>
+    
+    <item>
+      <title>Square Foot Gardening, Week 1</title>
+      <link>https://sdunbar.me/posts/sfg-week1/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/sfg-week1/</guid>
+      <description>Summary I&amp;rsquo;ve always wanted to grow vegetables and fruit at home, so this summer I decided to start a raised bed, where I&amp;rsquo;d be able to grow a number of plants without having to dig up the entire garden.
+I decided to follow the ideas of &amp;ldquo;Square Foot Gardening&amp;rdquo;. This was based around the concept of planter allotments that would be 4 square foot; Square Foot Gardening is basing the layout of a planter around square foot sized cells.</description>
+    </item>
+    
+    <item>
+      <title>Final Year Project</title>
+      <link>https://sdunbar.me/posts/final-year-project/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/final-year-project/</guid>
+      <description>With the knowledge gained from completing this project, it would be very easy to improve on this even further. Ways this could be improved would be using a cheap radio transmitter instead of a board with WiFi, hopefully cutting down on power usage even further. This could involve having numerous sensors radio back metrics to a “base” station, which would then upload the data to the database.
+A waterproof, solar-powered enclosure could be used in the system.</description>
+    </item>
+    
+    <item>
+      <title>Final Year Project - Preliminary Report</title>
+      <link>https://sdunbar.me/posts/final-year-project-prelim-report/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/final-year-project-prelim-report/</guid>
+      <description>| | [2] | A. Gebhart, &amp;quot;Parrot Flower Power Review,&amp;quot; 4 June 2014. [Online]. Available: https://www.cnet.com/uk/products/parrot-flower-power/review/. [Accessed 16 February 2017]. |%</description>
+    </item>
+    
+    <item>
+      <title>Mobile Applications Formal Element</title>
+      <link>https://sdunbar.me/posts/mobile_applications/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/mobile_applications/</guid>
+      <description>Introduction The purpose of this formal element was to design an application for Android Devices that meets the following requirements:
+ The user will use the app to take a photo of the room The user will then be able to superimpose a series of straight lines with double ended arrows onto the image The lines will be drawn using finger touch The user will also be able to add dimensions to each line  In this report, I will outline how I have achieved this by describing the background design of the application, followed by a description of the code.</description>
+    </item>
+    
+    <item>
+      <title>Migrating from Google Authenticator to Authy</title>
+      <link>https://sdunbar.me/posts/migrating-from-google-authenticator-to-authy/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/migrating-from-google-authenticator-to-authy/</guid>
+      <description>Migrating from Google Authenticator to Authy Two Factor Authentication is a neccessity these days and I try to use it wherever I can, but I was concerned still over what happened if I lost my phone and thus access to my 2FA credentials. To get around this using Google Authenticator I used Titanium Backup to backup the APK and data every 24 hours, but this was really clunky and I didn&amp;rsquo;t like that there was no built-in method to backup this data.</description>
+    </item>
+    
+    <item>
+      <title>Migrating from iRedMail to an alternative</title>
+      <link>https://sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/</link>
+      <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/</guid>
+      <description>Originally, when I registered my own domain, I decided I wanted to use it for a professional looking email to use on my CV and for applying to jobs. When I initially planned this, I had read an Ars Technica article about setting up an email server. With this info, I decided to read more into running your own email server, and came across IRedMail. For almost a year now, iRedMail is what I&amp;rsquo;ve been using, but between needing to constantly monitor access logs for numerous services, triple checking security settings every time a change is made, spend an eternity updating everything and dealing with mail delivery issues, I started to get frustrated.</description>
     </item>
     
   </channel>
