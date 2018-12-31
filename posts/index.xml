@@ -133,17 +133,8 @@ I decided to follow the ideas of &amp;ldquo;Square Foot Gardening&amp;rdquo;. Th
       <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sdunbar.me/posts/final-year-project/</guid>
-      <description>With the knowledge gained from completing this project, it would be very easy to improve on this even further. Ways this could be improved would be using a cheap radio transmitter instead of a board with WiFi, hopefully cutting down on power usage even further. This could involve having numerous sensors radio back metrics to a “base” station, which would then upload the data to the database.
-A waterproof, solar-powered enclosure could be used in the system.</description>
-    </item>
-    
-    <item>
-      <title>Final Year Project - Preliminary Report</title>
-      <link>https://sdunbar.me/posts/final-year-project-prelim-report/</link>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://sdunbar.me/posts/final-year-project-prelim-report/</guid>
-      <description>| | [2] | A. Gebhart, &amp;quot;Parrot Flower Power Review,&amp;quot; 4 June 2014. [Online]. Available: https://www.cnet.com/uk/products/parrot-flower-power/review/. [Accessed 16 February 2017]. |%</description>
+      <description>This is the full upload of my final year thesis.
+For my final year project, I developed a system for monitoring and managing a plant. This involved using microcontrollers, various sensors, real time databases, and graphing solutions. In this report I cover what decisions were made and why. I also talk about the results, mistakes that were made, and potential future improvements.</description>
     </item>
     
     <item>
