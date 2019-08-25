@@ -176,5 +176,15 @@ For my final year project, I developed a system for monitoring and managing a pl
       <description>Originally, when I registered my own domain, I decided I wanted to use it for a professional looking email to use on my CV and for applying to jobs. When I initially planned this, I had read an Ars Technica article about setting up an email server. With this info, I decided to read more into running your own email server, and came across IRedMail. For almost a year now, iRedMail is what I&amp;rsquo;ve been using, but between needing to constantly monitor access logs for numerous services, triple checking security settings every time a change is made, spend an eternity updating everything and dealing with mail delivery issues, I started to get frustrated.</description>
     </item>
     
+    <item>
+      <title>About Me</title>
+      <link>https://sdunbar.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sdunbar.me/about/</guid>
+      <description>Nerd, furry, enemy of the bourgeoisie.
+I&amp;rsquo;ll fill this out later, maybe.</description>
+    </item>
+    
   </channel>
 </rss>
