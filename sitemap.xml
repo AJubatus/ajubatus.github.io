@@ -8,42 +8,6 @@
   </url>
   
   <url>
-    <loc>https://sdunbar.me/posts/</loc>
-    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/</loc>
-    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/categories/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/categories/personal/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/tags/personal/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/tags/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://sdunbar.me/posts/work-trip-to-singapore/</loc>
     <lastmod>2019-06-10T00:00:00+00:00</lastmod>
   </url>
@@ -125,6 +89,46 @@
   
   <url>
     <loc>https://sdunbar.me/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/categories/personal/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/tags/personal/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/</loc>
+    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/tags/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/</loc>
+    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
