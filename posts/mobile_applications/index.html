@@ -19,8 +19,8 @@
  The user will use the app to take a photo of the room The user will then be able to superimpose a series of straight lines with double ended arrows onto the image The lines will be drawn using finger touch The user will also be able to add dimensions to each line  In this report, I will outline how I have achieved this by describing the background design of the application, followed by a description of the code." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sdunbar.me/posts/mobile_applications/" />
-<meta property="article:published_time" content="2016-12-10T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2016-12-10T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2016-12-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-12-10T00:00:00+00:00" />
 
 
     
@@ -57,7 +57,7 @@
     <link rel="icon" type="image/png" href="https://sdunbar.me/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://sdunbar.me/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="generator" content="Hugo 0.73.0" />
   </head>
 
   
@@ -116,126 +116,95 @@
       </header>
 
       <div>
-        
-
-<h1 id="introduction">Introduction</h1>
-
+        <h1 id="introduction">Introduction</h1>
 <p>The purpose of this formal element was to design an application for Android Devices that meets the following requirements:</p>
-
 <ul>
 <li>The user will use the app to take a photo of the room</li>
 <li>The user will then be able to superimpose a series of straight lines with double ended arrows onto the image</li>
 <li>The lines will be drawn using finger touch</li>
 <li>The user will also be able to add dimensions to each line</li>
 </ul>
-
 <p>In this report, I will outline how I have achieved this by describing the background design of the application, followed by a description of the code.</p>
-
 <h1 id="table-of-contents">Table of Contents</h1>
-
 <ul>
 <li>TOC
 {:toc}</li>
 </ul>
-
 <h1 id="background">Background</h1>
-
 <p>The application will be designed in Android using Android Studio. This is an IDE maintained by Google specifically for the development of Android Apps.</p>
-
 <p>It will consist of two activities; an activity represents a &quot;screen&quot; in an Android application. Activities can be swapped between and pass messages between each other using intents. In this application, the main_activity activity will use an intent to take a picture of an image, it will pass in a URI object into this intent, which is where the photo will be saved. It will then start another activity with the URI passed to it, draw_lines. Once draw_lines is finished, the imageView will be updated with the new image with lines drawn on it.</p>
-
 <p>The main activity consists of a textView (an object in Android used to display text), a button (used to execute code on press) and an ImageView (used to display an image on screen). This activity will, on button press, start an intent for any application that can take photos, it will pass in the URI object (a location to store the photo at) as an extra; An intent is a way to start other activities in Android and pass data between them, an extra is how these messages are stored, accessed by using keys, which is a string used to identify the extra.</p>
-
 <p>This activity will then start another intent for draw_lines, it will pass in a URI again which contains a link to the image. Once draw_lines has passed back in the URI after it is finished drawing, main_activity will then display the new image with lines.</p>
-
 <p>The second activity, draw_lines, will display an image using an ImageView, which will then be drawable using a Canvas and Paint object. It will also feature an EditText field, for user-entered dimensions, and a button, for saving the image and exiting back to main_activity, returning the URI of the new image with it.</p>
-
 <p>The main_activity class will also implement the OnClickListener interface, this means it must implement the onClick(View v) method. This is used to determine when an element on the screen is clicked on by the user. For the main_activity we want this on the &quot;Launch Camera&quot; button. Inside onClick we then have an if statement checking if it was pressed. If it was, we execute the code inside.</p>
-
 <p>The draw_lines class implements the OnClickListener interfaces as well as the OnTouchListener, meaning it must implement onClick(View v) and onTouch(View v). onClick(View v) functions similarly to main_activity, in that is used to determine when a button is pressed. Then an  onTouch(View v) method is implemented. This is used to check when the user touches the screen and then removes his finger from the screen. In this class, we get the coordinates of when the user touches the screen, when he removes his finger we get the coordinates for that also. Then we draw the line between these two coordinates, draw the text from the EditText field in the middle of this line and finally add the arrowheads to it.</p>
-
-<p>The main_activity class will also request permissions, which is required for Android Marshmallow and above, it does this by calling a request_permissions() method, which uses Android&#39;s built in methods to determine if we have permission to save images or not. If we don&#39;t it will prompt the user to grant the app permissions.</p>
-
+<p>The main_activity class will also request permissions, which is required for Android Marshmallow and above, it does this by calling a request_permissions() method, which uses Android's built in methods to determine if we have permission to save images or not. If we don't it will prompt the user to grant the app permissions.</p>
 <p>The layout will be constructed via XML, which is the language Android uses for displaying elements on the screen. Using this I will design the two layouts of the activities to be simple and understandable.</p>
-
 <h1 id="flow-of-the-application">Flow of the Application</h1>
-
 <p>Figure 1, flowchart of app</p>
-
-<p><img src="https://sdunbar.me/assets/images/college/flow.png" alt="flow" />{:class=&ldquo;img-responsive&rdquo;}</p>
-
+<p><img src="https://sdunbar.me/assets/images/college/flow.png" alt="flow">{:class=&quot;img-responsive&rdquo;}</p>
 <h1 id="overview">Overview</h1>
-
-<p><img src="https://sdunbar.me/assets/images/college/app1.png" alt="app1" />{:class=&ldquo;img-responsive&rdquo; .align-center}</p>
-
+<p><img src="https://sdunbar.me/assets/images/college/app1.png" alt="app1">{:class=&quot;img-responsive&rdquo; .align-center}</p>
 <p>The main activity is the screen viewable upon opening the app,
 it features an imageview, along with a button to launch the camera Intent.</p>
-
-<p><img src="https://sdunbar.me/assets/images/college/app2.png" alt="app2" />{:class=&ldquo;img-responsive&rdquo; .align-center}</p>
-
+<p><img src="https://sdunbar.me/assets/images/college/app2.png" alt="app2">{:class=&quot;img-responsive&rdquo; .align-center}</p>
 <p>Once the photo is captured, the draw_lines class is started, with the image displayed in the imageview.</p>
-
-<p><img src="https://sdunbar.me/assets/images/college/app3.png" alt="app3" />{:class=&ldquo;img-responsive&rdquo; .align-center}</p>
-
+<p><img src="https://sdunbar.me/assets/images/college/app3.png" alt="app3">{:class=&quot;img-responsive&rdquo; .align-center}</p>
 <p>The user is then able to input the dimensions in the field at the bottom, which will be applied to any line drawn.</p>
-
-<p><img src="https://sdunbar.me/assets/images/college/app4.png" alt="app4" />{:class=&ldquo;img-responsive&rdquo; .align-center}</p>
-
+<p><img src="https://sdunbar.me/assets/images/college/app4.png" alt="app4">{:class=&quot;img-responsive&rdquo; .align-center}</p>
 <p>Once the user has hit the finished button, this image is then saved,
 the main_acitivity screen is brought up again with the new image displayed.</p>
-
 <h1 id="main-activity">Main Activity</h1>
-
 <h2 id="xml">XML</h2>
-
 <p>The code for this layout is as follows:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight xml %}
-&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;
-&lt;RelativeLayout xmlns:android=&#34;http://schemas.android.com/apk/res/android&#34;
-xmlns:tools=&#34;http://schemas.android.com/tools&#34;
-android:id=&#34;@+id/activity_main&#34;
-android:layout_width=&#34;match_parent&#34;
-android:layout_height=&#34;match_parent&#34;
-android:paddingBottom=&#34;@dimen/activity_vertical_margin&#34;
-android:paddingLeft=&#34;@dimen/activity_horizontal_margin&#34;
-android:paddingRight=&#34;@dimen/activity_horizontal_margin&#34;
-android:paddingTop=&#34;@dimen/activity_vertical_margin&#34;
-tools:context=&#34;me.sdunbar.cameradistance.MainActivity&#34;&gt;
+<pre><code>{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+android:id=&quot;@+id/activity_main&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;match_parent&quot;
+android:paddingBottom=&quot;@dimen/activity_vertical_margin&quot;
+android:paddingLeft=&quot;@dimen/activity_horizontal_margin&quot;
+android:paddingRight=&quot;@dimen/activity_horizontal_margin&quot;
+android:paddingTop=&quot;@dimen/activity_vertical_margin&quot;
+tools:context=&quot;me.sdunbar.cameradistance.MainActivity&quot;&gt;
 
 &lt;TextView
-    android:layout_width=&#34;fill_parent&#34;
-    android:layout_height=&#34;wrap_content&#34;
-    android:text=&#34;@string/intro&#34;
-    android:layout_margin=&#34;3dp&#34;
-    android:textStyle=&#34;bold&#34;
-    android:id=&#34;@+id/textView&#34;/&gt;
+    android:layout_width=&quot;fill_parent&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:text=&quot;@string/intro&quot;
+    android:layout_margin=&quot;3dp&quot;
+    android:textStyle=&quot;bold&quot;
+    android:id=&quot;@+id/textView&quot;/&gt;
 
 &lt;Button
-    android:id=&#34;@+id/capture_btn&#34;
-    android:layout_width=&#34;wrap_content&#34;
-    android:layout_height=&#34;wrap_content&#34;
-    android:text=&#34;@string/capture&#34;
-    android:layout_below=&#34;@+id/textView&#34;
-    android:layout_alignLeft=&#34;@+id/textView&#34;
-    android:layout_alignStart=&#34;@+id/textView&#34; /&gt;
+    android:id=&quot;@+id/capture_btn&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:text=&quot;@string/capture&quot;
+    android:layout_below=&quot;@+id/textView&quot;
+    android:layout_alignLeft=&quot;@+id/textView&quot;
+    android:layout_alignStart=&quot;@+id/textView&quot; /&gt;
 
 &lt;ImageView
-    android:id=&#34;@+id/picture&#34;
-    android:layout_width=&#34;wrap_content&#34;
-    android:layout_height=&#34;wrap_content&#34;
-    android:minHeight=&#34;300dp&#34;
-    android:minWidth=&#34;300dp&#34;
-    android:contentDescription=&#34;@string/picture&#34;
-    android:background=&#34;@drawable/pic_border&#34;
-    android:layout_below=&#34;@+id/capture_btn&#34;
-    android:layout_alignLeft=&#34;@+id/capture_btn&#34;
-    android:layout_alignStart=&#34;@+id/capture_btn&#34;
-    android:scaleType=&#34;fitXY&#34;/&gt;
+    android:id=&quot;@+id/picture&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:minHeight=&quot;300dp&quot;
+    android:minWidth=&quot;300dp&quot;
+    android:contentDescription=&quot;@string/picture&quot;
+    android:background=&quot;@drawable/pic_border&quot;
+    android:layout_below=&quot;@+id/capture_btn&quot;
+    android:layout_alignLeft=&quot;@+id/capture_btn&quot;
+    android:layout_alignStart=&quot;@+id/capture_btn&quot;
+    android:scaleType=&quot;fitXY&quot;/&gt;
 
 &lt;/RelativeLayout&gt;
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <h2 id="imports">Imports</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.BitmapFactory;
@@ -259,26 +228,27 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>These imports allow the use of various methods within the class.</p>
-
 <h2 id="main-class">Main Class</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 public class MainActivity extends AppCompatActivity implements OnClickListener {
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This line defines the start of the block of code making up the class MainActivity, we also implement the OnClickListener interface to allow us to use the button.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 final int CAMERA_CAPTURE = 1;
 public Uri picUri;
 int APP_REQUEST = 69;
-static final String EXTRA_MESSAGE  =  &#34;me.sdunbar.intenttest.myKey&#34;;
+static final String EXTRA_MESSAGE  =  &quot;me.sdunbar.intenttest.myKey&quot;;
 Bitmap thePic;
 ImageView mImageView;
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>These variable declarations are done at the top, to be able to use them throughout the class.</p>
-
 <h3 id="oncreate">OnCreate()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 @Override
 protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
@@ -291,11 +261,11 @@ protected void onCreate(Bundle savedInstanceState) {
 
   request_permissions();
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This instantiates the button and imageview, sets the onClickListener for the button, as well as starts the request_permissions() method, which is used to allow us to save to external storage.</p>
-
-<h3 id="request-permissions">Request_permissions()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<h3 id="request_permissions">Request_permissions()</h3>
+<pre><code>{% highlight java %}
 private void request_permissions(){
     if (ContextCompat.checkSelfPermission(this,
             Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -309,11 +279,11 @@ private void request_permissions(){
         }
     }
 }
-{% endhighlight %}</pre></div>
-<p>This block of code was available from Android&#39;s official documentation, it first checks if we have permissions to write to external storage, if not, it prompts the user for permission.</p>
-
+{% endhighlight %}
+</code></pre>
+<p>This block of code was available from Android's official documentation, it first checks if we have permissions to write to external storage, if not, it prompts the user for permission.</p>
 <h3 id="onclick">onClick()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 public void onClick(View v) {
   if (v.getId() == R.id.capture_btn) {
       try {
@@ -327,22 +297,21 @@ public void onClick(View v) {
       }
       catch(ActivityNotFoundException anfe){
           //display an error message
-          String errorMessage = &#34;Whoops - your device doesn&#39;t support capturing images!&#34;;
+          String errorMessage = &quot;Whoops - your device doesn't support capturing images!&quot;;
           Toast toast = Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT);
           toast.show();
       }
   }
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This is the onClick handler, if the capture button is pressed, we declare and instantiate an Intent called CaptureIntent, this will use ANY application on the phone that can respond to this request. We also pass in a URI, defined from getOutputMediaFile(), we add this as an extra into captureIntent so that the application will save the image at the URI given to it. We then start this intent with startActivityForResult and the request code CAMERA_CAPTURE.</p>
-
 <p>The error handling in the catch is for if no application can respond to the intent request. It will pop up a toast (sliding notification from the bottom of the screen) to alert the user that no camera app is available.</p>
-
 <h3 id="getoutputmediafile">getOutputMediaFile()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 private File getOutputMediaFile(){
     File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
-           Environment.DIRECTORY_PICTURES), &#34;CameraDemo&#34;);
+           Environment.DIRECTORY_PICTURES), &quot;CameraDemo&quot;);
 
 
     if (!mediaStorageDir.exists()){
@@ -351,38 +320,41 @@ private File getOutputMediaFile(){
         }
     }
 
-    String timeStamp = new SimpleDateFormat(&#34;yyyyMMdd_HHmmss&#34;).format(new Date());
+    String timeStamp = new SimpleDateFormat(&quot;yyyyMMdd_HHmmss&quot;).format(new Date());
     String imageFileName = timeStamp;
 
     return new File(mediaStorageDir.getPath() + File.separator +
-            imageFileName + &#34;.png&#34;);
+            imageFileName + &quot;.png&quot;);
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This is used to determine where to store the saved file and what to call it, first we create a file by calling:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 Environment._getExternalStoragePublicDirectory_(Environment._DIRECTORY\_PICTURES_)
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This returns the location that Android has determined to be the public folder for storing pictures, the other variable &quot;CameraDemo&quot; allows us to create a folder called CameraDemo for storing our own images.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 if (!mediaStorageDir.exists()){
         if (!mediaStorageDir.mkdirs()){
             return null;
         }
     }
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This allows us to check if the folder exists and to attempt to create it if it does not.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
-String timeStamp = new SimpleDateFormat(&#34;yyyyMMdd_HHmmss&#34;).format(new Date());
+<pre><code>{% highlight java %}
+String timeStamp = new SimpleDateFormat(&quot;yyyyMMdd_HHmmss&quot;).format(new Date());
     String imageFileName = timeStamp;
 
     return new File(mediaStorageDir.getPath() + File.separator +
-            imageFileName + &#34;.png&#34;);
-{% endhighlight %}</pre></div>
+            imageFileName + &quot;.png&quot;);
+{% endhighlight %}
+</code></pre>
 <p>This generates a timestamp of the current time and formats it. We then return a file object with the path, filename and the extension .png.</p>
-
 <h3 id="onactivityresult">onActivityResult()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
   if (resultCode == RESULT_OK) {
       //user is returning from capturing an image using the camera
@@ -423,62 +395,59 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
   //display the returned image
   picView.setImageBitmap(thePic);
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>In this block of code, we first check if the resultCode was RESULT_OK, If it was, we check if the requestCode was CAMERA_CAPTURE. If these are both true, we create an InputStream of the picUri and create a bitmap from it. Supposedly, creating it from an InputStream instead of decoding directly saves massively on memory usage, especially with images as big as the ones that will be taken. This block will print the stacktrace in console if it cannot find the file.</p>
-
 <p>We then get a reference to the imageView and display the image on it.</p>
-
 <p>After this, we create a new intent for the Draw_lines class, we then hand it the URI in extras with the key EXTRA_MESSAGE. Then, it is started for result with the request code APP_REQUEST. Once the Draw_lines class is finished, it returns the URI as a string, which is then parsed here and displayed on the imageview.</p>
-
 <h1 id="draw-lines-class">Draw Lines class</h1>
-
 <h2 id="xml-1">XML</h2>
-
 <p>The code for this layout is as follows:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight xml %}
-&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;
-&lt;RelativeLayout xmlns:android=&#34;http://schemas.android.com/apk/res/android&#34;
-xmlns:tools=&#34;http://schemas.android.com/tools&#34;
-android:layout_width=&#34;match_parent&#34;
-android:layout_height=&#34;match_parent&#34; &gt;
+<pre><code>{% highlight xml %}
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;match_parent&quot; &gt;
 
 &lt;ImageView
-    android:id=&#34;@+id/picture&#34;
-    android:layout_width=&#34;wrap_content&#34;
-    android:layout_height=&#34;wrap_content&#34;
-    android:layout_alignParentLeft=&#34;true&#34;
-    android:layout_alignParentRight=&#34;true&#34;
-    android:layout_alignParentTop=&#34;true&#34;
-    android:layout_above=&#34;@+id/finBtn&#34; /&gt;
+    android:id=&quot;@+id/picture&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:layout_alignParentLeft=&quot;true&quot;
+    android:layout_alignParentRight=&quot;true&quot;
+    android:layout_alignParentTop=&quot;true&quot;
+    android:layout_above=&quot;@+id/finBtn&quot; /&gt;
 
 &lt;Button
-    android:text=&#34;Finished&#34;
-    android:layout_width=&#34;wrap_content&#34;
-    android:layout_height=&#34;wrap_content&#34;
-    android:id=&#34;@+id/finBtn&#34;
-    android:layout_alignParentBottom=&#34;true&#34;
-    android:layout_alignParentRight=&#34;true&#34;
-    android:layout_alignParentEnd=&#34;true&#34;
-    android:layout_marginRight=&#34;27dp&#34;
-    android:layout_marginEnd=&#34;27dp&#34; /&gt;
+    android:text=&quot;Finished&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:id=&quot;@+id/finBtn&quot;
+    android:layout_alignParentBottom=&quot;true&quot;
+    android:layout_alignParentRight=&quot;true&quot;
+    android:layout_alignParentEnd=&quot;true&quot;
+    android:layout_marginRight=&quot;27dp&quot;
+    android:layout_marginEnd=&quot;27dp&quot; /&gt;
 
 &lt;EditText
-    android:layout_width=&#34;wrap_content&#34;
-    android:layout_height=&#34;wrap_content&#34;
-    android:inputType=&#34;text&#34;
-    android:text=&#34;Name&#34;
-    android:ems=&#34;10&#34;
-    android:layout_alignParentBottom=&#34;true&#34;
-    android:layout_alignParentLeft=&#34;true&#34;
-    android:layout_alignParentStart=&#34;true&#34;
-    android:layout_marginLeft=&#34;15dp&#34;
-    android:layout_marginStart=&#34;15dp&#34;
-    android:id=&#34;@+id/editText&#34; /&gt;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:inputType=&quot;text&quot;
+    android:text=&quot;Name&quot;
+    android:ems=&quot;10&quot;
+    android:layout_alignParentBottom=&quot;true&quot;
+    android:layout_alignParentLeft=&quot;true&quot;
+    android:layout_alignParentStart=&quot;true&quot;
+    android:layout_marginLeft=&quot;15dp&quot;
+    android:layout_marginStart=&quot;15dp&quot;
+    android:id=&quot;@+id/editText&quot; /&gt;
 
 &lt;/RelativeLayout&gt;
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <h2 id="main-class-1">Main Class</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 public class Draw_lines extends Activity implements OnTouchListener, View.OnClickListener {
     ImageView imageView;
     Canvas canvas;
@@ -489,15 +458,15 @@ public class Draw_lines extends Activity implements OnTouchListener, View.OnClic
     Button capture;
     int[] viewCoords;
     Uri picUri;
-    static final String EXTRA_MESSAGE  =  &#34;me.sdunbar.intenttest.myKey&#34;;
+    static final String EXTRA_MESSAGE  =  &quot;me.sdunbar.intenttest.myKey&quot;;
     EditText et;
     float fixx, fixy;
     File file;
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>Here, we also implemenet OnTouchListener, this allows us to check for finger presses on the screen instead of just if a button has been pressed, we also declare a number of variables at the start, much like main_activity.</p>
-
 <h3 id="oncreate-1">onCreate()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 @Override
 public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -543,19 +512,15 @@ public void onCreate(Bundle savedInstanceState) {
     imageView.setOnTouchListener(this);
     capture.setOnClickListener(this);
 }
-{% endhighlight %}</pre></div>
-<p>Since this will be started as an intent, once we&#39;ve set the content view as usual and declared the imageView, editText, display etc. we begin parsing the Uri passed in. We do this by creating a Bundle called extras and then parsing the string that was stored with the key EXTRA_MESSAGE.</p>
-
+{% endhighlight %}
+</code></pre>
+<p>Since this will be started as an intent, once we've set the content view as usual and declared the imageView, editText, display etc. we begin parsing the Uri passed in. We do this by creating a Bundle called extras and then parsing the string that was stored with the key EXTRA_MESSAGE.</p>
 <p>With this key, we create an inputstream again to create the bitmap which we have named thePic. We then call the getResizedBitmap() method which will be explained below.</p>
-
 <p>Then we create the canvas and call setBitmap(thePic), this allows us to draw on and modify it.</p>
-
 <p>We then create two Paint() objects, one for the line and the other for text.</p>
-
 <p>Finally we set the imageView to thePic, so as to see the image we are drawing on. Then we set the onClickListener and onTouchListener as required.</p>
-
 <h3 id="getresizedbitmap">getResizedBitmap()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 public Bitmap getResizedBitmap(Bitmap bm, int maxHeight, int maxWidth) {
 
     float scale = Math.min(((float)maxHeight / bm.getWidth()), ((float)maxWidth / bm.getHeight()));
@@ -565,13 +530,12 @@ public Bitmap getResizedBitmap(Bitmap bm, int maxHeight, int maxWidth) {
 
     return Bitmap.createBitmap(bm, 0, 0, bm.getWidth(), bm.getHeight(), matrix, true);
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This is the code used to scale the bitmap, which was created by user &quot;Kevin&quot; at <a href="http://stackoverflow.com/questions/4837715/how-to-resize-a-bitmap-in-android">http://stackoverflow.com/questions/4837715/how-to-resize-a-bitmap-in-android</a></p>
-
 <p>I then modified his code somewhat, to pass in my own dimensions. It takes in a bitmap and a max height and width. It then creates a float representing the aspect ratio of the image, creating a Matrix object based on this, it then returns a new bitmap with this scaling applied.</p>
-
 <h3 id="ontouch">onTouch()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 public boolean onTouch(View v, MotionEvent event) {
     int action = event.getAction();
     switch (action) {
@@ -600,15 +564,13 @@ public boolean onTouch(View v, MotionEvent event) {
     }
     return true;
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This code handles when we touch the imageview, when the finger is pressed down, we get the coordinates, when the finger is released we grab the coordinates for that also.</p>
-
 <p>With these coordinates, we draw a line, and then call fillArrow() to add arrowheads to the ends of the line.</p>
-
 <p>We then average the X and Y coordinates of the start and end. We call drawText with the text from the editText, along with the coordinates and the textPaint object. We then invalidate the imageView to refresh it.</p>
-
 <h3 id="onclick-1">onClick()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 public void onClick(View v) {
     if (v.getId() == R.id.finBtn) {
         // Here, thisActivity is the current activity
@@ -616,13 +578,13 @@ public void onClick(View v) {
         String path = Environment.getExternalStorageDirectory().toString();
         try {
             File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
-                    Environment.DIRECTORY_PICTURES), &#34;CameraDemo&#34;);
+                    Environment.DIRECTORY_PICTURES), &quot;CameraDemo&quot;);
 
-            String timeStamp = new SimpleDateFormat(&#34;yyyyMMdd_HHmmss&#34;).format(new Date());
+            String timeStamp = new SimpleDateFormat(&quot;yyyyMMdd_HHmmss&quot;).format(new Date());
             String imageFileName = timeStamp;
 
             file = new File(mediaStorageDir.getPath() + File.separator +
-                    imageFileName + &#34;_lines.png&#34;);
+                    imageFileName + &quot;_lines.png&quot;);
 
             out = new FileOutputStream(file);
             thePic.compress(Bitmap.CompressFormat.PNG, 100, out); // bmp is your Bitmap instance
@@ -646,17 +608,14 @@ public void onClick(View v) {
         finish();
     }
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This code handles the button press. First we create a FileOutputStream, then similarly to main_acitivity, we determine the public pictures directory and use our own folder CameraDemo.</p>
-
 <p>We then create a time stamp to use as the image name, exactly as we did in main_activity, however, this time instead of appending .png, we append lines.png, to differentiate the two images.</p>
-
 <p>We then &quot;compress&quot; the image and write it out to the file, since we are using png, it is not actually compressed and the quality factor of 100 has no impact.</p>
-
 <p>Finally, we create an intent object, parse the Uri from file and store the string representation of this with the key EXTRA_MESSAGE. We then setResult of RESULT_OK and finish().</p>
-
 <h3 id="fillarrow">fillArrow()</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{% highlight java %}
+<pre><code>{% highlight java %}
 private void fillArrow(Canvas canvas, float x0, float y0, float x1, float y1) {
 
   paint.setStyle(Paint.Style.FILL);
@@ -706,11 +665,10 @@ private void fillArrow(Canvas canvas, float x0, float y0, float x1, float y1) {
   canvas.drawPath(path, paint);
   canvas.drawPath(path2, paint);
 }
-{% endhighlight %}</pre></div>
+{% endhighlight %}
+</code></pre>
 <p>This is the code for fillArrow() which I have gotten from Pierre. It uses the start and end coordinates of the line to draw 2 arrowheads on both ends. Unfortunately, I am not familiar enough with the math involved to explain further how this works.</p>
-
 <h1 id="conclusion">Conclusion</h1>
-
 <p>This formal element was intended to give us the skills required to design an Android application that could open a camera, save the image and then draw lines on said image with dimensions. Through this report I believe I have adequately demonstrated how to construct such an application.</p>
 
       </div>
@@ -754,7 +712,7 @@ private void fillArrow(Canvas canvas, float x0, float y0, float x1, float y1) {
     
       <p>Technobabble - Sean Dunbar</p>
     
-     © 2019
+     © 2020
     
        · 
       Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.

@@ -1,10 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://sdunbar.me/posts/ef-25/</loc>
     <lastmod>2019-09-03T16:31:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/posts/</loc>
+    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/</loc>
+    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/categories/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/tags/personal/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/categories/personal/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sdunbar.me/tags/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -92,43 +122,7 @@
   </url>
   
   <url>
-    <loc>https://sdunbar.me/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/categories/personal/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/tags/personal/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/posts/</loc>
-    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://sdunbar.me/series/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/tags/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sdunbar.me/</loc>
-    <lastmod>2019-09-03T16:31:29+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

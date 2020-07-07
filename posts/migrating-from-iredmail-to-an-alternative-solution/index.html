@@ -17,8 +17,8 @@
 <meta property="og:description" content="Test" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sdunbar.me/posts/migrating-from-iredmail-to-an-alternative-solution/" />
-<meta property="article:published_time" content="2016-10-21T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2016-10-21T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2016-10-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-10-21T00:00:00+00:00" />
 
 
     
@@ -55,7 +55,7 @@
     <link rel="icon" type="image/png" href="https://sdunbar.me/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://sdunbar.me/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="generator" content="Hugo 0.73.0" />
   </head>
 
   
@@ -115,13 +115,9 @@
 
       <div>
         <p>Originally, when I registered my own domain, I decided I wanted to use it for a professional looking email to use on my CV and for applying to jobs. When I initially planned this, I had read an <a href="http://arstechnica.com/information-technology/2014/02/how-to-run-your-own-e-mail-server-with-your-own-domain-part-1/">Ars Technica article</a> about setting up an email server. With this info, I decided to read more into running your own email server, and came across IRedMail. For almost a year now, iRedMail is what I&rsquo;ve been using, but between needing to constantly monitor access logs for numerous services, triple checking security settings every time a change is made, spend an eternity updating everything and dealing with mail delivery issues, I started to get frustrated.</p>
-
 <p>I decided to look for a replacement, either an all in one suite that is regularly updated (and libre if I can get it), or a solution hosted elsewhere that allows me to use my own domain for equal or lesser cost to running the server.</p>
-
 <p>I compared two appropriate solutions for this, Zoho Mail and Zimbra Suite. Zoho Mail is a service that provides email hosting for custom domains, they offer a free tier, limited to 1 domain and 25 users. Zimbra Suite is a locally installed collection of mail software, similar to IRedMail, but with a simpler update procedure and less headaches from maintenance.</p>
-
 <p>In the end, I went with Zoho Mail, the limitations of a single domain and 25 users are perfect for me. Another alternative I was looking at was Zimbra suite, however given the problems I had running IRedMail on its VPS due to lack of memory, I decided against it.</p>
-
 <p>The migration was relatively simple, it involved siging up for Zoho, tweaking my DNS records and then running a script to import my old mail. After that, all I had to do was point my email clients to the new IMAP and SMTP addresses and I was finished.</p>
 
       </div>
@@ -165,7 +161,7 @@
     
       <p>Technobabble - Sean Dunbar</p>
     
-     © 2019
+     © 2020
     
        · 
       Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
